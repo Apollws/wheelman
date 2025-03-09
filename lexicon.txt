@@ -1,0 +1,11 @@
+hypothermia,a severe drop of body temperature,noun
+indeterminism,the opposite of determinism,noun
+inconsistent,not consistent; contradictory,adjective
+hypocrisy,faking something; not being genuine,noun
+arachnophobia,fear of spiders,noun
+merciful,clement,adjective
+claustrophobic,afraid of closed spaces,adjective
+underestimate,to appreciate less,verb
+mindboggling,very surprising,adjective
+hemmorrhagic,characterized by blood-loss,adjective
+insubstantial,trivial,adjective
