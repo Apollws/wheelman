@@ -9,8 +9,8 @@ So, the classes are:
 To initialize the traced_word object, we take a tuple from the "lexicon.txt" containing the word, its definition, and what part of speech it is.
 The options lead you to the proper methods, guess_word(), guess_consonant(), buy_clue(), buy_vowel().
 The methods of the word to be found (Traced_Word) also use the update() method from the Player class because the actions of the player can create earnings or losses.
-Also, because some words may contain a letter multiple times (e.g. "i" in "intimidating"), I created an enumerate (traced_word); a for loop runs through it to see if a proposed letter (bought vowel or guessed consonant) exists and where.
-4) There is also a Game class, for combining the above objects and helping their cooperation. The play() method is a while loop that runs for as long as the word contains gaps ("-"). For that, it uses the is_success() method of the Traced_Word class.
+Also, because some words may contain a letter multiple times (e.g. "i" in "intimidating") and the available Python methods only return the first occurence in a string, I had to create an enumerate (traced_word): a for-loop runs through it to see if a proposed letter (bought vowel or guessed consonant) exists and where.
+3) There is also a Game class, for combining the above objects and helping their cooperation. The play() method is a while-loop that runs for as long as the word contains gaps ("-"). For that, it uses the is_success() method of the Traced_Word class.
 
 I made a (global?) function unfold() which unfolds the letters of the printed messages, to make the app have a slightly more interesting feel.
 
